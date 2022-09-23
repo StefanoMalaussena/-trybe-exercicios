@@ -65,29 +65,77 @@
 
 
 
-const nota1 = 120
+// const nota1 = 120
 
-if (nota1 >= 90 && nota1 <= 100) {
-    console.log('A')
-}
-else if (nota1 >= 80 && nota1 <= 89) {
-    console.log('B')
-}
-else if (nota1 >= 70 && nota1 <= 79) {
-    console.log('C')
-}
-else if (nota1 >= 60 && nota1 <= 69) {
-    console.log('D')
-}
-else if (nota1 >= 50 && nota1 <= 59) {
-    console.log('E')
-}
-else if (nota1 > 0 && nota1 < 50) {
-    console.log('F')
-}
-else {
-    console.log('error')
-}
+// if (nota1 >= 90 && nota1 <= 100) {
+//     console.log('A')
+// }
+// else if (nota1 >= 80 && nota1 <= 89) {
+//     console.log('B')
+// }
+// else if (nota1 >= 70 && nota1 <= 79) {
+//     console.log('C')
+// }
+// else if (nota1 >= 60 && nota1 <= 69) {
+//     console.log('D')
+// }
+// else if (nota1 >= 50 && nota1 <= 59) {
+//     console.log('E')
+// }
+// else if (nota1 > 0 && nota1 < 50) {
+//     console.log('F')
+// }
+// else {
+//     console.log('error')
+// }
+
+// const a = 3
+// const b = 422
+// const c = 7
+// let par = false;
+
+// console.log(par)
+
+// if ((a % 2 === 0 || b % 2 === 0 || c % 2 === 0)) {
+//     par = true;
+// }
+
+// console.log(par)
+
+
+// const a = 2;
+// const b = 3;
+// const c = 538;
+// let par = false;
+
+// if ((a % 2 === 0 && b % 2 === 0 && c % 2 === 0)) {
+//     par = true;
+// }
+
+// console.log(par)
+
+
+// let total = (a / 2)
+// let total2 = (b / 2)
+// let total3 = (c / 2)
+
+
+// if (a % 2 === 0) {
+//     console.log('par');
+// }
+// else if (b % 2 === 0) {
+//     console.log('par');
+// }
+// else if (c % 2 === 0) {
+//     console.log('par');
+// }
+// else {
+//     console.log('impar')
+// }
+
+
+
+
 
 
 
