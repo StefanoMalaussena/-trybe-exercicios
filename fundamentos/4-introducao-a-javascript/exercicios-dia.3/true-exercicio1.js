@@ -1,4 +1,4 @@
-
+//Crie um algoritmo que imprima na tela o fatorial de 10
 
 let fatorial = 1;
 
