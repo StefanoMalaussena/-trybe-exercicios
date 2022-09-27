@@ -61,15 +61,9 @@
 // Multiplicação (a * b)
 // Divisão (a / b)
 // Módulo (a % b)
-// Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
-// Faça um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
-// Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
-// Faça um programa que receba três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, o programa deve retornar uma mensagem de erro.
-// Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
-// Um ângulo será considerado inválido se não tiver um valor positivo.
-  
-function soma (som1, som2) {
-  return (som1 + som2)
+
+function soma (som1, som2, som3) {
+  return (som1 + som2 + som3)
 };
 
 function subtracao (sub1, sub2) {
@@ -88,22 +82,79 @@ function modulo (mod1, mod2) {
   return (mod1 % mod2)
 }
 
-
-// console.log(soma (20, 3));
+ //console.log(soma (20, 3, 2));
 // console.log(subtracao(20, 3));
 // console.log(multiplicacao (20, 3));
 // console.log(divisao (20, 3));
 // console.log(modulo (20, 3));
 
-function maiorNumero (valor1, valor2) {
-  if (valor1 > valor2) {
-  return (valor1 + ' é o maior número.')
-  }
-  else if (valor1 === valor2) {
-  return ('Os números sao iguais.')  
+// Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
+
+// function maiorNumero (valor1, valor2) {
+//   if (valor1 > valor2) {
+//   return (valor1 + ' é o maior número.')
+//   }
+//   else if (valor1 === valor2) {
+//   return ('Os números sao iguais.')  
+//   }
+//   else {
+//     return (valor2 + ' é o maior número.')
+//   }
+// }
+// console.log(maiorNumero(34, 23));
+
+// Faça um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
+
+// function maiorValor (valor1, valor2, valor3) {
+//   if (valor1 > valor2 && valor1 > valor3 ) {
+//     return (valor1 + ' é maior.')
+    
+//   } 
+//   else if (valor2 > valor1 && valor2 > valor3) {
+//     return (valor2 + ' é maior.')
+//   }
+//   else if (valor3 > valor1 && valor3 > valor2) {
+//     return (valor3 + ' é maior.')
+//   }
+//   else {
+//     return ('Os números sao iguais')
+//   }
+  
+// }
+
+// console.log(maiorValor(89,89,89))
+
+// Faça um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
+
+// function positiveOrNegative(par1) {
+//   if (par1 > 0) {
+//     return (par1 + ' is positive')
+//   }
+//   else if (par1 < 0) {
+//     return (par1 + ' is negative')
+//   }
+//   else {
+//     return ('zero')
+//   }
+  
+// }
+// console.log(positiveOrNegative(34));
+
+// Faça um programa que receba três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, o programa deve retornar uma mensagem de erro.
+// Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
+// Um ângulo será considerado inválido se não tiver um valor positivo.
+
+function triangulo (ang1, ang2, ang3) {
+  if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
+    return ('Isso nao é um tringulo.')
+  } 
+  else if (soma(ang1, ang2, ang3) === 180) {
+    return (true)
   }
   else {
-    return (valor2 + ' é o maior número.')
+    return (false)
   }
 }
-console.log(maiorNumero(34, 23));
+
+console.log(triangulo(80, 50, 50));
+
