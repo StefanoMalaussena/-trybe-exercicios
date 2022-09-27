@@ -82,7 +82,7 @@ function modulo (mod1, mod2) {
   return (mod1 % mod2)
 }
 
- //console.log(soma (20, 3, 2));
+ console.log(soma (20.5, 3, 2));
 // console.log(subtracao(20, 3));
 // console.log(multiplicacao (20, 3));
 // console.log(divisao (20, 3));
@@ -144,17 +144,17 @@ function modulo (mod1, mod2) {
 // Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
 // Um ângulo será considerado inválido se não tiver um valor positivo.
 
-function triangulo (ang1, ang2, ang3) {
-  if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
-    return ('Isso nao é um tringulo.')
-  } 
-  else if (soma(ang1, ang2, ang3) === 180) {
-    return (true)
-  }
-  else {
-    return (false)
-  }
-}
+// function triangulo (ang1, ang2, ang3) {
+//   if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
+//     return ('Isso nao é um tringulo.')
+//   } 
+//   else if (soma(ang1, ang2, ang3) === 180) {
+//     return (true)
+//   }
+//   else {
+//     return (false)
+//   }
+// }
 
-console.log(triangulo(80, 50, 50));
+// console.log(triangulo(80, 50, 50));
 
