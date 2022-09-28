@@ -82,7 +82,7 @@ function modulo (mod1, mod2) {
   return (mod1 % mod2)
 }
 
- console.log(soma (20.5, 3, 2));
+//  console.log(soma (20.5, 3, 2));
 // console.log(subtracao(20, 3));
 // console.log(multiplicacao (20, 3));
 // console.log(divisao (20, 3));
