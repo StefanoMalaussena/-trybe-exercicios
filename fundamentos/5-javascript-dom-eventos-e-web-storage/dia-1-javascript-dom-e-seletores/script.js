@@ -1,1 +1,0 @@
-(document.getElementsByClassName('paragraph')[1].innerText = 'Melhor filme de aventura!')
