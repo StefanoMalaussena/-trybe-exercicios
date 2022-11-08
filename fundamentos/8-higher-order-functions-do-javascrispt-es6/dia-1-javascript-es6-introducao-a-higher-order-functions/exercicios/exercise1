@@ -1,0 +1,32 @@
+const {books} = require('./script4')
+
+const authorBornIn1947 = () => books.find((book) => (book.author.birthYear === 1947));
+//console.log(authorBornIn1947());
+const smallerName = () => {
+    let nameBook;
+  books.forEach((book) => {
+    if(!nameBook || book.name.length < nameBook.length){
+    nameBook = book.name;
+    }
+  }) 
+  return nameBook;
+} 
+// console.log(smallerName());
+
+// Function que retorna o primeiro titulo do objeto com 26 caracteres
+  const getNamedBook = (books) => books.find((book) => book.name.length === 26); 
+// console.log(getNamedBook(books));
+
+// Function que ordena todos os livros do objeto books por ordem de lançamento
+const orderBooks = (books) => books.sort((book1, book2) => book1.releaseYear - book2.releaseYear)
+
+// console.log(orderBooks(books));
+
+// Function que retorna true se todos os autores nasceram no
+function everyoneWasBornOnSecXX() {
+ 
+}
+
+
+
+
